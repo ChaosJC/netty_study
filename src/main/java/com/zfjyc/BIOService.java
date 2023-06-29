@@ -7,7 +7,7 @@ import java.net.Socket;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-public class Main {
+public class BIOService {
     public static void main(String[] args) throws IOException {
         ExecutorService executorService1 = Executors.newCachedThreadPool();
         ServerSocket serverSocket = new ServerSocket(6666);
